@@ -2,7 +2,14 @@
   "name": "w3w-booking-rotate",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/dauleduc2/w3w-booking-rotate.git",
   "author": "Đức Đậu <52856963+dauleduc2@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
 }
